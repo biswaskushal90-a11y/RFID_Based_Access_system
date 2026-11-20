@@ -15,14 +15,14 @@
 MFRC522 rfid(SS_PIN, RST_PIN);
 
 // ---------------- WiFi Credentials ----------------
-const char* ssid = "SUSOMSING";
-const char* password = "susom123";
+const char* ssid = "";
+const char* password = "";
 
 // ---------------- PHP API URLs ----------------
 // data_upload.php  → logs access, checks authorized_cards, drives buzzer/LED
 // receive_card.php → saves UID to current_uid.txt for the Card Manager page
-const char* serverName    = "http://rfid.onlycoding.co.in/data_upload.php";
-const char* managerServer = "http://rfid.onlycoding.co.in/latest_uid.php";
+const char* serverName    = "";
+const char* managerServer = "";
 
 void setup()
 {
